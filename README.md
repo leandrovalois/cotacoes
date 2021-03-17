@@ -1,5 +1,6 @@
 #projeto cotações
-#para executar configure as dependencias
-'npm i'
+ # ANTES
+`npm i`
 
-'npm start'
+# DEPOIS
+`npm start`
