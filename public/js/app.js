@@ -21,7 +21,7 @@ cotacoesForm.addEventListener('submit', (event) => {
     const ativo = document.querySelector('input').value
     console.log('Ativo:' + ativo)
 
-    fetch(`http://localhost:3000/cotacoes?ativo=${ativo}`).then((response) => {
+    fetch(`/cotacoes?ativo=${ativo}`).then((response) => {
         response.json().then((response) => {
 
             setTimeout(() => {
