@@ -46,7 +46,7 @@ app.get('/cotacoes',(req, resp) => {
         
         return resp.status(400).json({
             error : {
-                message:'O ativo deve ser informado.',
+                message:'Precisamos de um ativo para realizar a consulta :)',
                 code: 400
             }
         })
@@ -65,7 +65,7 @@ app.get('/cotacoes',(req, resp) => {
 
             return resp.status(500).json({
                 error : {
-                    message:'Informe o ativo.',
+                    message:`Nenhum ativo encontrado para o código ${symbol} `,
                     code: 500
                 }
             })
