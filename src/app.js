@@ -69,10 +69,6 @@ app.get('/cotacoes',(req, resp) => {
                     code: 500
                 }
             })
-           
-            /*console.log(err)
-           resp.statusCode = 500
-           return resp.send(err) */   
         }
 
         console.log(data)
